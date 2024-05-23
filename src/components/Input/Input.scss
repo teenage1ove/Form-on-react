@@ -1,0 +1,28 @@
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #3D3D3D;
+    padding: 1.4rem 2rem;
+
+    &:focus {
+        border: 1px solid #4B72C2;
+    }
+}
+
+.form__label {
+    font-size: 1.6rem;
+    color: #7f7f7f;
+}
+
+.form__checkbox {
+    margin-right: 15px;
+}
+
+.form__button {
+    width: 200px;
+    padding: 14px 0;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #4B72C2;
+}
